@@ -1,0 +1,44 @@
+.shop-name:first-letter {
+  color : red;
+  font-size : 3.1rem;
+  font-weight : 600;
+}
+
+.shop-name span {
+  font-size : 2.9rem;
+  font-weight : 600;
+  color : orange;
+}
+
+.shop-name {
+  font-style : italic;
+  font-size : 2.1rem;
+  font-weight : 500;
+}
+
+.shopping-cart {
+  cursor : pointer;
+}
+
+.shopping-cart:active {
+  transform: scale(1.1);
+}
+
+.shopping-cart .cart-count {
+  position: absolute;
+  width : 20px;
+  height : 20px;
+  background-color : red;
+  display: flex;
+  justify-content: center;
+  align-items : center;
+  border-radius : 50%;
+  transform: translateX(15px) translateY(-38px);
+}
+
+.shopping-cart .cart-count span {
+  position: absolute;
+  font-size : 12px;
+  font-weight: bold;
+  color : white;
+}
